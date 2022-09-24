@@ -1,6 +1,6 @@
 /* Algoritmo insertion sort conforme apersentado no livro Introduction
 to Algorithms, fourth edition (978-0262046305) de Thomas Cormen. 
-O algortimo recebe como entrada um vetor de número inteiros aleatórios
+O algortimo recebe como entrada um vetor de números inteiros aleatórios
 cujo tamanho é definido pela diretiva de pré-processamento SIZE, bastando
 alterar esse valor para executá-lo com tamanhos diferentes. */
 
