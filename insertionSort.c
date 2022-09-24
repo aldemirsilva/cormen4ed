@@ -10,7 +10,7 @@ alterar esse valor para executá-lo com tamanhos diferentes. */
 
 #define SIZE 100000000
 
-void meuInsertionSort(int v[], int n) {
+void insertionSort(int v[], int n) {
     int chave, j;
     for (int i = 2; i < n; i++) {
         chave = v[i];
@@ -34,11 +34,11 @@ int main() {
 
     for (i = 0; i < SIZE; i++) v[i] = rand();
 
-    // printf("Iniciando ordenação.\n");
+    printf("Iniciando ordenação.\n");
 
-    meuInsertionSort(v, SIZE);
+    insertionSort(v, SIZE);
 
-    // printf("Ordenação concluída.\n");
+    printf("Ordenação concluída.\n");
 
     free(v);
 }
