@@ -1,3 +1,6 @@
+/* Algoritmo insertion sort conforme apersentado no livro Introduction
+to Algorithms, fourth edition (978-0262046305) de Thomas Cormen. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
