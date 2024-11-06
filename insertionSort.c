@@ -11,16 +11,16 @@ alterar esse valor para executá-lo com tamanhos diferentes. */
 #define SIZE 100000000
 
 void insertionSort(int v[], int n) {
-    int chave, j;
-    for (int i = 2; i < n; i++) {
-        chave = v[i];
-        j = i - 1;
-        while (j > 0 && v[i] > chave) {
-            v[j+1] = v[j];
-            j--;
-        }
-        v[j+1] = chave;
+  int chave, j;
+  for (int i = 1; i < n; i++) {
+    chave = v[i];
+    j = i - 1;
+    while (j >= 0 && v[j] > chave) {
+      v[j + 1] = v[j];
+      j--;
     }
+    v[j + 1] = chave;
+  }
 }
 
 int main() {
